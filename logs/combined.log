@@ -1,0 +1,7 @@
+{"level":"info","message":"Server is running on port 3000","service":"calculator-microservice"}
+{"level":"info","message":"Addition operation requested: 5 + 3","service":"calculator-microservice"}
+{"level":"info","message":"Subtraction operation requested: 5 - 3","service":"calculator-microservice"}
+{"level":"info","message":"Subtraction operation requested: 5 - 3","service":"calculator-microservice"}
+{"level":"info","message":"Subtraction operation requested: 5 - 3","service":"calculator-microservice"}
+{"level":"info","message":"Subtraction operation requested: 5 - 3","service":"calculator-microservice"}
+{"level":"info","message":"Subtraction operation requested: 80 - 28","service":"calculator-microservice"}
