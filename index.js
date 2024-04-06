@@ -68,5 +68,28 @@ app.post('/divide', (req, res) => {
   res.json({ result });
 });
 
+
+// Exponentiation
+app.post('/exponentiate', (req, res) => {
+  const { base, exponent } = req.body;
+  const result = Math.pow(base, exponent);
+  res.json({ result });
+});
+
+// Square Root
+app.post('/sqrt', (req, res) => {
+  const { number } = req.body;
+  const result = Math.sqrt(number);
+  res.json({ result });
+});
+
+// Modulo
+app.post('/modulo', (req, res) => {
+  const { dividend, divisor } = req.body;
+  const result = dividend % divisor;
+  res.json({ result });
+});
+
+
 app.listen(PORT, () => logger.info(`Server is running on port ${PORT}`));
 
